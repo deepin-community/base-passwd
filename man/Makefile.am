@@ -1,4 +1,4 @@
-LANGS = de es fr ja ru
+LANGS = de es fr ja ro ru
 RAW_LANGS = pl
 
 CLEANFILES = po4a-stamp

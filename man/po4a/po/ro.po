@@ -1,0 +1,334 @@
+# Mesajele în limba română pentru manualul base-passwd.
+# Romanian translation of base-passwd-man.
+# Copyright © 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the base-passwd package.
+#
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2023.
+#
+# Cronologia traducerii fișierului „base-passwd-man”:
+# Traducerea inițială, făcută de R-GC, pentru versiunea base-passwd 3.6.2, oct-2023.
+# Actualizare a traducerii pentru versiunea Y, făcută de X, Y(luna-anul).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: base-passwd 3.6.2\n"
+"POT-Creation-Date: 2021-09-05 14:11+0100\n"
+"PO-Revision-Date: 2023-10-28 00:08+0200\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && "
+"n%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: TH
+#: ../update-passwd.8:1
+#, no-wrap
+msgid "UPDATE-PASSWD"
+msgstr "UPDATE-PASSWD"
+
+#. type: TH
+#: ../update-passwd.8:1
+#, no-wrap
+msgid "Debian tools"
+msgstr "Instrumente Debian"
+
+#. type: TH
+#: ../update-passwd.8:1
+#, no-wrap
+msgid "DEBIAN"
+msgstr "DEBIAN"
+
+#. type: SH
+#: ../update-passwd.8:2
+#, no-wrap
+msgid "NAME"
+msgstr "NUME"
+
+#. type: Plain text
+#: ../update-passwd.8:4
+msgid "update-passwd - safely update /etc/passwd, /etc/shadow and /etc/group"
+msgstr ""
+"update-passwd - actualizează în siguranță fișierele „/etc/passwd”, „/etc/"
+"shadow” și „/etc/group”"
+
+#. type: SH
+#: ../update-passwd.8:4
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "REZUMAT"
+
+#. type: Plain text
+#: ../update-passwd.8:7
+msgid "B<update-passwd> [I<options>]"
+msgstr "B<update-passwd> [I<opțiuni>]"
+
+#. type: SH
+#: ../update-passwd.8:7
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "DESCRIERE"
+
+#. type: Plain text
+#: ../update-passwd.8:16
+msgid ""
+"B<update-passwd> handles updates of /etc/passwd, /etc/shadow and /etc/group "
+"on running Debian systems.  It compares the current files to master copies, "
+"distributed in the base-passwd package, and updates all entries in the "
+"global system range (that is, 0\\(en99).  It leaves backup copies of the "
+"previous versions of modified files with the extension \\(oq.org\\(cq (for "
+"\\(lqoriginal\\(rq)."
+msgstr ""
+"B<update-passwd> gestionează actualizările fișierelor „/etc/passwd”, „/etc/"
+"shadow” și „/etc/group” pe sistemele Debian care rulează.  Compară fișierele "
+"curente cu copiile originale, distribuite în pachetul „base-passwd”, și "
+"actualizează toate intrările din intervalul global al sistemului (adică "
+"0\\(en99).  Lasă copii de rezervă ale versiunilor anterioare ale fișierelor "
+"modificate cu extensia \\(oq.org\\(cq (pentru \\(lqoriginal\\(rq)."
+
+#. type: SH
+#: ../update-passwd.8:16
+#, no-wrap
+msgid "OPTIONS"
+msgstr "OPȚIUNI"
+
+#. type: Plain text
+#: ../update-passwd.8:20
+msgid ""
+"B<update-passwd> follows the usual GNU command line syntax, with long "
+"options starting with two dashes (\\(oq-\\(cq)."
+msgstr ""
+"B<update-passwd> urmează sintaxa obișnuită a liniei de comandă GNU, cu "
+"opțiuni lungi care încep cu două liniuțe (\\(oq-\\(cq)."
+
+#. type: TP
+#: ../update-passwd.8:20
+#, no-wrap
+msgid "B<-p>,\\ B<--passwd-master=FILE>"
+msgstr "B<-p>,\\ B<--passwd-master=FIȘIER>"
+
+#. type: Plain text
+#: ../update-passwd.8:25
+msgid ""
+"Use FILE as the master copy of the passwd database.  The default value is I</"
+"usr/share/base-passwd/passwd.master>."
+msgstr ""
+"Utilizează FIȘIERUL drept copie principală a bazei de date „passwd”.  "
+"Valoarea implicită este I</usr/share/base-passwd/passwd.master>."
+
+#. type: TP
+#: ../update-passwd.8:25
+#, no-wrap
+msgid "B<-g>,\\ B<--group-master=FILE>"
+msgstr "B<-g>,\\ B<--group-master=FIȘIER>"
+
+#. type: Plain text
+#: ../update-passwd.8:30
+msgid ""
+"Use FILE as the master copy of the group database.  The default value is I</"
+"usr/share/base-passwd/group.master>."
+msgstr ""
+"Utilizează FIȘIERUL drept copie principală a bazei de date pentru „group”.  "
+"Valoarea implicită este I</usr/share/base-passwd/group.master>."
+
+#. type: TP
+#: ../update-passwd.8:30
+#, no-wrap
+msgid "B<-P>,\\ B<--passwd=FILE>"
+msgstr "B<-P>,\\ B<--passwd=FIȘIER>"
+
+#. type: Plain text
+#: ../update-passwd.8:35
+msgid ""
+"Use FILE as the system passwd database.  The default value is I</etc/passwd>."
+msgstr ""
+"Utilizează FIȘIERUL ca bază de date „passwd” a sistemului.  Valoarea "
+"implicită este I</etc/passwd>."
+
+#. type: TP
+#: ../update-passwd.8:35
+#, no-wrap
+msgid "B<-S>,\\ B<--shadow=FILE>"
+msgstr "B<-S>,\\ B<--shadow=FIȘIER>"
+
+#. type: Plain text
+#: ../update-passwd.8:40
+msgid ""
+"Use FILE as the system shadow database.  The default value is I</etc/shadow>."
+msgstr ""
+"Utilizează FIȘIERUL ca bază de date „shadow” a sistemului.  Valoarea "
+"implicită este I</etc/shadow>."
+
+#. type: TP
+#: ../update-passwd.8:40
+#, no-wrap
+msgid "B<-G>,\\ B<--group=FILE>"
+msgstr "B<-G>,\\ B<--group=FIȘIER>"
+
+# R-GC, scrie:
+# am tradus „... grupurilor din sistem.”, și nu
+# „... grupurilor sistemului.”
+# Pentru a indica că este vorba de TOATE
+# grupurile de utilizatori din SO, și nu
+# doar de cele care aparțin STRICT SO-ului,
+# serviciile din sistem (0 - 999).
+#. type: Plain text
+#: ../update-passwd.8:45
+msgid ""
+"Use FILE as the system group database.  The default value is I</etc/group>."
+msgstr ""
+"Utilizează FIȘIERUL ca bază de date a grupurilor din sistem.  Valoarea "
+"implicită este I</etc/group>."
+
+#. type: TP
+#: ../update-passwd.8:45
+#, no-wrap
+msgid "B<-s>,\\ B<--sanity-check>"
+msgstr "B<-s>,\\ B<--sanity-check>"
+
+#. type: Plain text
+#: ../update-passwd.8:48
+msgid "Only perform sanity-checks but don't do anything."
+msgstr "Efectuează doar verificări de integritate, dar nu face nimic."
+
+#. type: TP
+#: ../update-passwd.8:48
+#, no-wrap
+msgid "B<-v>,\\ B<--verbose>"
+msgstr "B<-v>,\\ B<--verbose>"
+
+#. type: Plain text
+#: ../update-passwd.8:52
+msgid ""
+"Give detailed information about what we are doing.  A second -v gives "
+"additional detail."
+msgstr ""
+"Oferă informații detaliate despre ceea ce se face.  Un al doilea „-v” oferă "
+"detalii suplimentare."
+
+#. type: TP
+#: ../update-passwd.8:52
+#, no-wrap
+msgid "B<-n>,\\ B<--dry-run>"
+msgstr "B<-n>,\\ B<--dry-run>"
+
+#. type: Plain text
+#: ../update-passwd.8:55
+msgid "Don't do anything but only show what we would do."
+msgstr "Nu face nimic, ci doar arată ce ar fi făcut."
+
+#. type: TP
+#: ../update-passwd.8:55
+#, no-wrap
+msgid "B<-L>,\\ B<--no-locking>"
+msgstr "B<-L>,\\ B<--no-locking>"
+
+#. type: Plain text
+#: ../update-passwd.8:60
+msgid ""
+"Don't attempt to lock the account database.  This should only be used for "
+"debugging purposes.  B<I repeat: do not do this unless you are really sure "
+"you need this!>"
+msgstr ""
+"Nu încearcă să blocheze baza de date a contului.  Acest lucru ar trebui să "
+"fie utilizat numai în scopuri de depanare.  B<Repet: nu faceți acest lucru "
+"decât dacă sunteți foarte sigur că aveți nevoie!>"
+
+#. type: TP
+#: ../update-passwd.8:60
+#, no-wrap
+msgid "B<-h>,\\ B<--help>"
+msgstr "B<-h>,\\ B<--help>"
+
+#. type: Plain text
+#: ../update-passwd.8:64
+msgid "Show a summary of how to use B<update-passwd>."
+msgstr "Afișează un rezumat al modului de utilizare al B<update-passwd>."
+
+#. type: TP
+#: ../update-passwd.8:64
+#, no-wrap
+msgid "B<-V>,\\ B<--version>"
+msgstr "B<-V>,\\ B<--version>"
+
+#. type: Plain text
+#: ../update-passwd.8:67
+msgid "Show the version number"
+msgstr "Afișează numărul de versiune"
+
+#. type: SH
+#: ../update-passwd.8:67
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr "VARIABILE DE MEDIU"
+
+#. type: TP
+#: ../update-passwd.8:68
+#, no-wrap
+msgid "DEBIAN_HAS_FRONTEND"
+msgstr "DEBIAN_HAS_FRONTEND"
+
+#. type: Plain text
+#: ../update-passwd.8:82
+msgid ""
+"If this environment variable is set and the B<--dry-run> flag was not given, "
+"B<update-passwd> uses debconf to prompt for whether to make changes.  Each "
+"proposed change will produce a separate prompt.  User or group removals, UID "
+"or GID changes, and home directory changes will be asked with high "
+"priority.  User or group additions and shell changes will be asked with "
+"medium priority.  Questions about whether to move entries above the NIS "
+"compat inclusion entry or whether to change the GECOS of a user are asked at "
+"low priority."
+msgstr ""
+"Dacă această variabilă de mediu este definită și nu a fost dată opțiunea B<--"
+"dry-run>, B<update-passwd> utilizează «debconf» pentru a întreba dacă "
+"trebuie să se facă modificări.  Fiecare modificare propusă va produce un "
+"prompt separat.  Eliminarea utilizatorilor sau a grupurilor, modificările "
+"UID sau GID și modificările directorului personal vor fi întrebate cu "
+"prioritate ridicată.  Adăugările de utilizatori sau grupuri și modificările "
+"de shell vor fi solicitate cu prioritate medie.  Întrebările referitoare la "
+"mutarea intrărilor deasupra intrării de includere NIS compat sau la "
+"modificarea GECOS (a datelor personale) a unui utilizator sunt adresate cu "
+"prioritate scăzută."
+
+#. type: SH
+#: ../update-passwd.8:82
+#, no-wrap
+msgid "BUGS"
+msgstr "ERORI"
+
+#. type: Plain text
+#: ../update-passwd.8:88
+msgid ""
+"At this moment B<update-passwd> does not verify the shadow-file.  It should "
+"check if the entries in the passwd are also in shadow and vice versa, and "
+"that passwords are not present in both files."
+msgstr ""
+"În acest moment, B<update-passwd> nu verifică fișierul „shadow”.  Ar trebui "
+"să verifice dacă intrările din fișierul „passwd” se află și în fișierul "
+"„shadow” și invers, și dacă parolele nu sunt prezente în ambele fișiere."
+
+#. type: SH
+#: ../update-passwd.8:88
+#, no-wrap
+msgid "AUTHOR"
+msgstr "AUTOR"
+
+#. type: Plain text
+#: ../update-passwd.8:90
+msgid "Wichert Akkerman E<lt>wakkerma@debian.orgE<gt>"
+msgstr "Wichert Akkerman E<lt>wakkerma@debian.orgE<gt>"
+
+#. type: Plain text
+#: ../update-passwd.8:94
+msgid ""
+"This program was written for the Debian project, and is copyright "
+"1999\\(en2002 Wichert Akkerman and copyright 2002, 2003 Colin Watson.  It is "
+"distributed under version 2 of the GNU General Public License."
+msgstr ""
+"Acest program a fost scris pentru proiectul Debian și are drepturi de autor "
+"1999\\(en2002 Wichert Akkerman și drepturi de autor 2002, 2003 Colin "
+"Watson.  Este distribuit sub versiunea 2 a Licenței Publice Generale GNU."

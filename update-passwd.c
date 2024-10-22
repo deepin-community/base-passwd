@@ -1169,6 +1169,9 @@ int write_passwd(const struct _node* passwd, const char* file) {
 	assert(passwd->t==t_passwd);
 	if (fputpwent(&(passwd->d.pw), output)!=0) {
 	    fprintf(stderr, "Error writing passwd-entry: %s\n", strerror(errno));
+	    if (fclose(output)!=0) {
+		fprintf(stderr, "Error closing passwd-file %s: %s\n", file, strerror(errno));
+	    }
 	    return 0;
 	}
     }
@@ -1209,6 +1212,9 @@ int write_shadow(const struct _node* shadow, const char* file) {
 	assert(shadow->t==t_shadow);
 	if (putspent(&(shadow->d.sp), output)!=0) {
 	    fprintf(stderr, "Error writing shadow-entry: %s\n", strerror(errno));
+	    if (fclose(output)!=0) {
+		fprintf(stderr, "Error closing shadow-file %s: %s\n", file, strerror(errno));
+	    }
 	    return 0;
 	}
     }
@@ -1263,6 +1269,9 @@ int write_group(const struct _node* group, const char* file) {
 	assert(group->t==t_group);
 	if (putgrent(&(group->d.gr), output)!=0) {
 	    fprintf(stderr, "Error writing group-entry: %s\n", strerror(errno));
+	    if (fclose(output)!=0) {
+		fprintf(stderr, "Error closing group-file %s: %s\n", file, strerror(errno));
+	    }
 	    return 0;
 	}
     }

@@ -8,6 +8,6 @@ Um die englische Originalversion zu lesen, geben Sie »man -L C BEFEHL« ein.
 Fehler in der Übersetzung melden Sie bitte über die Fehlerdatenbank (BTS)
 von Debian oder indem Sie eine E-Mail an
 .nh
-<\fIdebian\-l10\-german@lists.debian.org\fR>,
+<\fIdebian\-l10n\-german@lists.debian.org\fR>,
 .hy
 schreiben.

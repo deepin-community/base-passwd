@@ -64,6 +64,19 @@ if [ ! -e "$DPKG_ROOT/etc/group" ] ; then
 	cp "$DPKG_ROOT/usr/share/base-passwd/group.master" "$DPKG_ROOT/etc/group"
 fi
 
+if [ ! -e "$DPKG_ROOT/etc/subuid" ] ; then
+	touch "$DPKG_ROOT/etc/subuid"
+	chown 0:0 "$DPKG_ROOT/etc/subuid"
+	chmod 644 "$DPKG_ROOT/etc/subuid"
+fi
+
+if [ ! -e "$DPKG_ROOT/etc/subgid" ] ; then
+	touch "$DPKG_ROOT/etc/subgid"
+	chown 0:0 "$DPKG_ROOT/etc/subgid"
+	chmod 644 "$DPKG_ROOT/etc/subgid"
+fi
+
+
 tmp=$(mktemp)
 if [ -n "$2" ] && ! update-passwd --dry-run > "$tmp" ; then
 	if [ -f /usr/share/debconf/confmodule ] ; then

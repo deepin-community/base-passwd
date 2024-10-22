@@ -1,3 +1,22 @@
+base-passwd (3.6.5) unstable; urgency=medium
+
+  [ Colin Watson ]
+  * Apply X-Style: black.
+  * Add Romanian translation of update-passwd(8) (thanks, Remus-Gabriel
+    Chelu; closes: #1055383).
+
+  [ Maks Mishin ]
+  * Fix potential descriptor leaks.
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 21 Oct 2024 18:26:50 +0100
+
+base-passwd (3.6.4) unstable; urgency=medium
+
+  [ Chris Hofstaedtler ]
+  * Ensure that /etc/subuid and /etc/subgid exist (closes: #1074121).
+
+ -- Colin Watson <cjwatson@debian.org>  Mon, 01 Jul 2024 12:20:04 +0100
+
 base-passwd (3.6.3) unstable; urgency=medium
 
   [ Samuel Thibault ]
