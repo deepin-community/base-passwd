@@ -1,0 +1,278 @@
+# Catalan translation of base-passwd's debconf messages
+# Copyright © 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the base-passwd package.
+# poc senderi <pocsenderi@protonmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: base-passwd\n"
+"Report-Msgid-Bugs-To: base-passwd@packages.debian.org\n"
+"POT-Creation-Date: 2014-01-05 13:38-0800\n"
+"PO-Revision-Date: 2024-12-31 06:13+0100\n"
+"Last-Translator: Carles Pina i Estany <cpina@debian.org>\n"
+"Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Do you want to move the user ${name}?"
+msgstr "Voleu moure l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:1001 ../templates:2001 ../templates:3001 ../templates:4001
+#: ../templates:5001 ../templates:6001 ../templates:7001 ../templates:8001
+#: ../templates:9001 ../templates:10001 ../templates:11001 ../templates:12001
+msgid ""
+"update-passwd has found a difference between your system accounts and the current "
+"Debian defaults.  It is advisable to allow update-passwd to change your system; "
+"without those changes some packages might not work correctly.  For more "
+"documentation on the Debian account policies, please see /usr/share/doc/base-passwd/"
+"README."
+msgstr ""
+"L'«update-passwd» ha trobat una diferència entre els comptes d'aquest sistema i els "
+"valors predeterminats actuals de Debian. És recomanable permetre que l'«update-"
+"passwd» canviï el sistema: sense aquests canvis alguns paquets podrien no funcionar "
+"correctament. Per a més documentació sobre les polítiques de comptes de Debian, "
+"consulteu «/usr/share/doc/base-passwd/README»."
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:1001 ../templates:2001 ../templates:3001 ../templates:4001
+#: ../templates:5001 ../templates:6001 ../templates:7001 ../templates:8001
+#: ../templates:9001 ../templates:10001 ../templates:11001 ../templates:12001
+msgid "The proposed change is:"
+msgstr "El canvi proposat és:"
+
+#. Type: boolean
+#. Description
+#: ../templates:1001
+msgid "Move user \"${name}\" (${id}) to before the NIS compat \"+\" entry"
+msgstr ""
+"Moure l'usuari «${name}» (${id}) per davant de l'entrada «+» del «compat» del NIS"
+
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#. Type: boolean
+#. Description
+#: ../templates:1001 ../templates:2001 ../templates:3001 ../templates:4001
+#: ../templates:5001 ../templates:6001 ../templates:7001 ../templates:8001
+#: ../templates:9001 ../templates:10001 ../templates:11001 ../templates:12001
+msgid ""
+"If you allow this change, a backup of modified files will be made with the "
+"extension .org, which you can use if necessary to restore the current settings.  If "
+"you do not make this change now, you can make it later with the update-passwd "
+"utility."
+msgstr ""
+"Si permeteu aquest canvi, es farà una còpia de seguretat amb l'extensió «.org» dels "
+"fitxers modificats, que si cal podeu utilitzar per restaurar la configuració "
+"actual. Si no feu aquest canvi ara, podeu fer-lo més endavant amb la utilitat "
+"«update-passwd»."
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Do you want to move the group ${name}?"
+msgstr "Voleu moure el grup ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:2001
+msgid "Move group \"${name}\" (${id}) to before the NIS compat \"+\" entry"
+msgstr ""
+"Moure el grup «${name}» (${id}) per davant de l'entrada «+» del «compat» del NIS"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Do you want to add the user ${name}?"
+msgstr "Voleu afegir l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:3001
+msgid "Add user \"${name}\" (${id})"
+msgstr "Afegeix l'usuari «${name}» (${id})"
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Do you want to add the group ${name}?"
+msgstr "Voleu afegir el grup ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:4001
+msgid "Add group \"${name}\" (${id})"
+msgstr "Afegeix el grup «${name}» (${id})"
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Do you want to remove the user ${name}?"
+msgstr "Voleu eliminar l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:5001
+msgid "Remove user \"${name}\" (${id})"
+msgstr "Elimina l'usuari «${name}» (${id})"
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Do you want to remove the group ${name}?"
+msgstr "Voleu eliminar el grup ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:6001
+msgid "Remove group \"${name}\" (${id})"
+msgstr "Elimina el grup «${name}» (${id})"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Do you want to change the UID of user ${name}?"
+msgstr "Voleu canviar l'UID de l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:7001
+msgid "Change the UID of user \"${name}\" from ${old_uid} to ${new_uid}"
+msgstr "Canvia l'UID de l'usuari «${name}» de ${old_uid} a ${new_uid}"
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid "Do you want to change the GID of user ${name}?"
+msgstr "Voleu canviar el GID de l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:8001
+msgid ""
+"Change the GID of user \"${name}\" from ${old_gid} (${old_group}) to ${new_gid} "
+"(${new_group})"
+msgstr ""
+"Canvia el GID de l'usuari «${name}» de ${old_gid} (${old_group}) a ${new_gid} "
+"(${new_group})"
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Do you want to change the GECOS of user ${name}?"
+msgstr "Voleu canviar el GECOS de l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:9001
+msgid "Change the GECOS of user \"${name}\" from \"${old_gecos}\" to \"${new_gecos}\""
+msgstr "Canvia el GECOS de l'usuari «${name}» de «${old_gecos}» a «${new_gecos}»"
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid "Do you want to change the home directory of user ${name}?"
+msgstr "Voleu canviar el directori d'usuari de l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:10001
+msgid "Change the home directory of user \"${name}\" from ${old_home} to ${new_home}"
+msgstr ""
+"Canvia el directori d'usuari de l'usuari «${name}» de ${old_home} a ${new_home}"
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid "Do you want to change the shell of user ${name}?"
+msgstr "Voleu canviar l'intèrpret d'ordres de l'usuari ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:11001
+msgid "Change the shell of user \"${name}\" from ${old_shell} to ${new_shell}"
+msgstr ""
+"Canvia l'intèrpret d'ordres de l'usuari «${name}» de ${old_shell} a ${new_shell}"
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid "Do you want to change the GID of group ${name}?"
+msgstr "Voleu canviar el GID del grup ${name}?"
+
+#. Type: boolean
+#. Description
+#: ../templates:12001
+msgid "Change the GID of group \"${name}\" from ${old_gid} to ${new_gid}"
+msgstr "Canvia el GID del grup «${name}» de ${old_gid} a ${new_gid}"
