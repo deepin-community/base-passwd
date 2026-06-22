@@ -1,7 +1,10 @@
 Source: base-passwd
 Section: admin
 Priority: required
-Maintainer: Colin Watson <cjwatson@debian.org>
+Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+Uploaders:
+ Colin Watson <cjwatson@debian.org>,
+ Marc Haber <mh+debian-packages@zugschlus.de>,
 Standards-Version: 3.9.8
 Build-Depends:
  debhelper-compat (= 13),

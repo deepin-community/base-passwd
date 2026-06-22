@@ -1,3 +1,20 @@
+base-passwd (3.6.7) unstable; urgency=medium
+
+  [ Marc Haber ]
+  * Add myself to Uploaders.
+
+  [ Colin Watson ]
+  * Debconf translations:
+    - Catalan (thanks, Carles Pina i Estany; closes: #1101110).
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 23 Mar 2025 15:30:08 +0000
+
+base-passwd (3.6.6) unstable; urgency=medium
+
+  * Move to team maintenance under pkg-shadow-devel.
+
+ -- Colin Watson <cjwatson@debian.org>  Sun, 29 Dec 2024 13:43:54 +0000
+
 base-passwd (3.6.5) unstable; urgency=medium
 
   [ Colin Watson ]
